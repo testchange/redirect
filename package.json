@@ -1,0 +1,23 @@
+{
+  "name": "parkingsg-dashboard",
+  "version": "1.0.0",
+  "description": "## Data Source: 1) Feedback from Zendesk API 2) Users from Google Analytics 3) Parking Sessions from DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "static -a 0.0.0.0 -p $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datagovsg/parkingsg-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datagovsg/parkingsg-dashboard/issues"
+  },
+  "homepage": "https://github.com/datagovsg/parkingsg-dashboard#readme",
+  "dependencies": {
+    "node-static": "0.7.10"
+  }
+}
